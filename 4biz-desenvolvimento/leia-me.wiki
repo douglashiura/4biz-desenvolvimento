@@ -9,7 +9,7 @@
 :: Abra um terminal linux.
 
 * Atalho: 
-<pre>crtl + shift + t<pre> 
+<pre>crtl + shift + t</pre> 
 === No terminal, rode o seguintes comandos ===
 : Primeiro de executar, substitua nome.sobrenome de acordo usuário recebido da empresa CentralIt.
 <code>

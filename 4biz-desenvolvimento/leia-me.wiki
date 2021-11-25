@@ -1,0 +1,35 @@
+== Manual de instalação do ambiente de desenvolvimento ==
+
+: O Manual de instalação do ambiente é um guia para instalaçao das ferramentas para o desenvolvimento.
+
+=== Requesitos ===
+* Sistema operacional Ubuntu - para instalação do sistema operacional Ubuntu acesse o [https://www.techtudo.com.br/noticias/2016/01/como-instalar-o-ubuntu.ghtml tutorial]
+
+===Instalação Básica==
+:: Abra um terminal linux
+
+* Atalho: 
+
+<pre>crtl + shift + t<pre> 
+
+====No terminal, rode o seguintes comandos:====
+: Primeiro de executar, substitua nome.sobrenome de acordo usuário recebido da empresa CentralIt.
+<pre>
+
+sudo apt install git
+
+cd ~/git
+
+git clone https://nome.sobrenome@scm.centralit.com.br/scm/git/4biz-desenvolvimento
+
+cd 4biz-desenvolvimento
+
+sudo ./instalador.sh
+
+<pre>
+:Durante a instalação, o terminal requererá a senha do sistema operacional e senha da CentralIT 
+
+
+
+
+

@@ -3,7 +3,7 @@
 :O Manual de instalação do ambiente é um guia para instalaçao das ferramentas para o desenvolvimento.
 
 === Requisitos ===
-* Sistema operacional Ubuntu - para instalação do sistema operacional Ubuntu acesse o [https://www.techtudo.com.br/noticias/2016/01/como-instalar-o-ubuntu.ghtml tutorial].
+* Sistema Operacional Ubuntu - para instalação do Sistema Operacional Ubuntu, acesse o [https://www.techtudo.com.br/noticias/2016/01/como-instalar-o-ubuntu.ghtml tutorial].
 
 ===Instalação Básica===
 :: Abra um terminal linux. 

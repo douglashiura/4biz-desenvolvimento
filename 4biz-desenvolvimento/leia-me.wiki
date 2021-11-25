@@ -1,15 +1,15 @@
 == Manual de instalação do ambiente de desenvolvimento ==
-
 :O Manual de instalação do ambiente é um guia para instalaçao das ferramentas para o desenvolvimento.
 
 === Requisitos ===
 * Sistema Operacional Ubuntu - para instalação do Sistema Operacional Ubuntu, acesse o [https://www.techtudo.com.br/noticias/2016/01/como-instalar-o-ubuntu.ghtml tutorial].
 
 ===Instalação Básica===
-:: Abra um terminal linux. 
+: Abra um terminal linux. 
 <pre>crtl + shift + t (atalho do teclado) </pre> 
+
 ==== No terminal, rode o seguintes comandos ====
-: Primeiro de executar, substitua "nome.sobrenome" de acordo usuário recebido da empresa CentralIt.
+: Primeiro de executar, substitua "nome.sobrenome" de acordo usuário recebido da empresa CentralIT.
 <pre>
 sudo apt install git
 cd ~/git
@@ -17,9 +17,12 @@ git clone https://nome.sobrenome@scm.centralit.com.br/scm/git/4biz-desenvolvimen
 cd 4biz-desenvolvimento
 sudo ./instalador.sh
 </pre>
-: Observação: Durante a instalação, o terminal requererá a senha do sistema operacional e senha da CentralIT 
+: Observação: Durante a instalação, o terminal requererá a senha do sistema operacional e senha da CentralIT.
 
+== Suplementares ==
 
-
-
-
+=== Repositório Maven da central IT ===
+Acesse o [https://artifactory.centralit.com.br:8092/artifactory/webapp/login.html?0 artifactory].
+Depois de autenticar-se, acesse o perfil do usuário.
+[[File:tutorial/artifactory/perfil.jpeg|Perfil do usuário]]
+ 

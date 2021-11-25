@@ -2,13 +2,13 @@
 
 :O Manual de instalação do ambiente é um guia para instalaçao das ferramentas para o desenvolvimento.
 
-=== Requesitos ===
+=== Requisitos ===
 * Sistema operacional Ubuntu - para instalação do sistema operacional Ubuntu acesse o [https://www.techtudo.com.br/noticias/2016/01/como-instalar-o-ubuntu.ghtml tutorial].
 
 ===Instalação Básica===
 :: Abra um terminal linux. 
 <pre>crtl + shift + t (atalho do teclado) </pre> 
-=== No terminal, rode o seguintes comandos ===
+==== No terminal, rode o seguintes comandos ====
 : Primeiro de executar, substitua "nome.sobrenome" de acordo usuário recebido da empresa CentralIt.
 <pre>
 sudo apt install git

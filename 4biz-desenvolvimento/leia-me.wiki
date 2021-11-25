@@ -4,7 +4,8 @@
 === Requisitos ===
 * Sistema Operacional Ubuntu - para instalação do Sistema Operacional Ubuntu, acesse o [https://www.techtudo.com.br/noticias/2016/01/como-instalar-o-ubuntu.ghtml tutorial].
 * Acessos:
-**https://artifactory.centralit.com.br:8092/artifactory/webapp/login.html?0
+** https://artifactory.centralit.com.br:8092/artifactory/webapp/login.html?0
+** https://scm.centralit.com.br
 
 ===Instalação Básica===
 : Abra um terminal linux. 
@@ -17,6 +18,8 @@ sudo apt install git
 cd ~/git
 git clone https://nome.sobrenome@scm.centralit.com.br/scm/git/4biz-desenvolvimento
 cd 4biz-desenvolvimento
+CHAVE_MAVEN=APS85...89L // [[leia-me.wiki#repositório-maven-da-central-it como obter este valor]]
+NOME_USUARIO_CENTRAL_IT=nome.sobrenome // encaminhado por email 
 sudo ./instalador.sh
 </pre>
 : Observação: Durante a instalação, o terminal requererá a senha do sistema operacional e senha da CentralIT.
@@ -28,7 +31,7 @@ sudo ./instalador.sh
 # Acesse o perfil do usuário. [[File:tutorial/artifactory/perfil.jpeg|Perfil do usuário]]
 # Digite a sua senha da CentralIT (Mesma de autenticação) e clique em "Unlock". [[File:tutorial/artifactory/desbloqueio_de_perfil.jpeg|Desbloqueio do perfil]]
 # Identifique e copie a senha criptografada. [[File:tutorial/artifactory/identificacao_chave_criptografada.png|Identificação da chave cripografada]]
-
+Observação: A chave Maven (CHAVE_MAVEN) é a senha criptografada. 
 
 
 

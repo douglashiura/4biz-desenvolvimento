@@ -12,7 +12,7 @@
 <pre>crtl + shift + t</pre> 
 === No terminal, rode o seguintes comandos ===
 : Primeiro de executar, substitua nome.sobrenome de acordo usuário recebido da empresa CentralIt.
-<code>
+<pre>
 
 sudo apt install git
 
@@ -24,7 +24,7 @@ cd 4biz-desenvolvimento
 
 sudo ./instalador.sh
 
-</code>
+</pre>
 : Durante a instalação, o terminal requererá a senha do sistema operacional e senha da CentralIT 
 
 

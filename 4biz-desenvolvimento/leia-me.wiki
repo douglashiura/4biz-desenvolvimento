@@ -6,20 +6,24 @@
 * Acessos:
 ** https://artifactory.centralit.com.br:8092/artifactory/webapp/login.html?0
 ** https://scm.centralit.com.br
-
+** CHAVE_MAVEN=APS85...89L // [[leia-me.wiki#repositório-maven-da-central-it como obter este valor]]
+** NOME_USUARIO_CENTRAL_IT=nome.sobrenome // encaminhado por email 
 ===Instalação Básica===
 : Abra um terminal linux. 
 <pre>crtl + shift + t (atalho do teclado) </pre> 
 
 ==== No terminal, rode o seguintes comandos ====
-: Primeiro de executar, substitua "nome.sobrenome" de acordo usuário recebido da empresa CentralIT.
+: Inicialize o valor das variáveis adequadamente e rode no terminal.
+<pre>
+CHAVE_MAVEN=APS85...89L
+NOME_USUARIO_CENTRAL_IT=nome.sobrenome 
+</pre>
+
 <pre>
 sudo apt install git
 cd ~/git
-git clone https://nome.sobrenome@scm.centralit.com.br/scm/git/4biz-desenvolvimento
+git clone https://$NOME_USUARIO_CENTRAL_IT@scm.centralit.com.br/scm/git/4biz-desenvolvimento
 cd 4biz-desenvolvimento
-CHAVE_MAVEN=APS85...89L // [[leia-me.wiki#repositório-maven-da-central-it como obter este valor]]
-NOME_USUARIO_CENTRAL_IT=nome.sobrenome // encaminhado por email 
 sudo ./instalador.sh
 </pre>
 : Observação: Durante a instalação, o terminal requererá a senha do sistema operacional e senha da CentralIT.

@@ -3,6 +3,8 @@
 
 === Requisitos ===
 * Sistema Operacional Ubuntu - para instalação do Sistema Operacional Ubuntu, acesse o [https://www.techtudo.com.br/noticias/2016/01/como-instalar-o-ubuntu.ghtml tutorial].
+* Acessos:
+**https://artifactory.centralit.com.br:8092/artifactory/webapp/login.html?0 artifactory
 
 ===Instalação Básica===
 : Abra um terminal linux. 
@@ -22,7 +24,16 @@ sudo ./instalador.sh
 == Suplementares ==
 
 === Repositório Maven da central IT ===
-Acesse o [https://artifactory.centralit.com.br:8092/artifactory/webapp/login.html?0 artifactory].
-Depois de autenticar-se, acesse o perfil do usuário.
+# Acesse o [https://artifactory.centralit.com.br:8092/artifactory/webapp/login.html?0 artifactory].
+# Acesse o perfil do usuário.
 [[File:tutorial/artifactory/perfil.jpeg|Perfil do usuário]]
- 
+# Digite a sua senha da CentralIT (Mesma de autenticação) e clique em "Unlock":
+[[File:tutorial/artifactory/desbloqueio_de_perfil.jpeg|Desbloqueio do perfil]]
+# Identifique e copie a senha criptografada.
+[[File:tutorial/artifactory/identificacao_chave_criptografada.png|Identificação da chave cripografada]]
+
+
+
+
+
+

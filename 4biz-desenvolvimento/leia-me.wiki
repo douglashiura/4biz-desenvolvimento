@@ -6,8 +6,8 @@
 * Sistema operacional Ubuntu - para instalação do sistema operacional Ubuntu acesse o [https://www.techtudo.com.br/noticias/2016/01/como-instalar-o-ubuntu.ghtml tutorial].
 
 ===Instalação Básica===
-:: Abra um terminal linux (Atalho). 
-<pre>crtl + shift + t</pre> 
+:: Abra um terminal linux. 
+<pre>crtl + shift + t</pre> (atalho do teclado) 
 === No terminal, rode o seguintes comandos ===
 : Primeiro de executar, substitua "nome.sobrenome" de acordo usuário recebido da empresa CentralIt.
 <pre>

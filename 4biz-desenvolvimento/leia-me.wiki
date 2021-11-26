@@ -18,7 +18,7 @@
 export CHAVE_MAVEN=APS85...89L
 export NOME_USUARIO_CENTRAL_IT=nome.sobrenome 
 </pre>
-Observação: as variáveis acima serão substituidas pelo terminal. Os comandos abaixo podem ser executados como estão, depois de fixar os valores das variáveis acima e executar no terminal.
+Observação: as variáveis acima serão substituidas pelo terminal. Os comandos abaixo podem ser executados como estão. Mas primeiro fixe os valores das variáveis acima e executar no terminal.
 <pre>
 sudo apt install git
 cd ~/git

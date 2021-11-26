@@ -44,7 +44,7 @@ Observação: A chave Maven (CHAVE_MAVEN) é a senha criptografada.
 ====Ajustando configurações do Eclipse====
 #Na tela inicial do eclipse, abra a janela Window/Preferences e preencha as opções das próximas telas conforme abaixo: [[File:tutorial/eclipse/utf-8.png|Fixando UTF-8]] [[File:tutorial/eclipse/build.png|Fixando Build]] [[File:tutorial/eclipse/java-8.png|Fixando Java-8]]
 #Fixe a configuração do maven do usuário /home/{seu.usuario}/.m2/settings.xml [[File:tutorial/eclipse/utf-8.png|Fixando Maven]]
-#Evite validações[[File:tutorial/eclipse/utf-8.png|Fixando Validações]]
+#Evite validações[[File:tutorial/eclipse/evitando-validacoes.png|Fixando Validações]]
 
 ====Importando o projeto Citsmart para o Eclipse====
 # Selecione File -> Import[[File:tutorial/eclipse/workspace-importacao.png|Selecionando a Workspace do Eclipse]]

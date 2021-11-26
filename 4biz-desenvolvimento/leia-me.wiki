@@ -23,7 +23,7 @@ Observação: as variáveis acima serão substituidas pelo terminal. Os comandos
 sudo apt install git
 cd ~/git
 git clone https://${NOME_USUARIO_CENTRAL_IT}@scm.centralit.com.br/scm/git/4biz-desenvolvimento
-cd 4biz-desenvolvimento
+cd ~/git/4biz-desenvolvimento/4biz-desenvolvimento/
 sudo ./instalador.sh
 </pre>
 : Observação: Durante a instalação, o terminal requererá a senha do sistema operacional e senha da CentralIT.

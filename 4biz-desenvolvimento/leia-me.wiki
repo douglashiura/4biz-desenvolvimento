@@ -15,14 +15,14 @@
 ==== No terminal, rode o seguintes comandos ====
 : Subistitua o valor das variáveis adequadamente e rode no terminal.
 <pre>
-CHAVE_MAVEN=APS85...89L
-NOME_USUARIO_CENTRAL_IT=nome.sobrenome 
+export CHAVE_MAVEN=APS85...89L
+export NOME_USUARIO_CENTRAL_IT=nome.sobrenome 
 </pre>
-
+Observação: as variáveis acima serão substituidas pelo terminal. Os comandos abaixo podem ser executados como estão, depois de fixar os valores das variáveis acima e executar no terminal.
 <pre>
 sudo apt install git
 cd ~/git
-git clone https://$NOME_USUARIO_CENTRAL_IT@scm.centralit.com.br/scm/git/4biz-desenvolvimento
+git clone https://${NOME_USUARIO_CENTRAL_IT}@scm.centralit.com.br/scm/git/4biz-desenvolvimento
 cd 4biz-desenvolvimento
 sudo ./instalador.sh
 </pre>

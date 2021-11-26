@@ -37,7 +37,7 @@ sudo ./instalador.sh
 # Identifique e copie a senha criptografada. [[File:tutorial/artifactory/identificacao_chave_criptografada.png|Identificação da chave cripografada]]
 Observação: A chave Maven (CHAVE_MAVEN) é a senha criptografada.
 
-=== Configurando o projeto no Eclipse EE ===
+=== Configurando o projeto no Eclipse ===
 # Abra o Eclipse
 # Selecione a Workspace[[File:tutorial/eclipse/abrindo-eclipse.png|Selecionando a Workspace do Eclipse]]
 ## /home/{usuário}/workspaces/run2biz
@@ -46,7 +46,7 @@ Observação: A chave Maven (CHAVE_MAVEN) é a senha criptografada.
 #Fixe a configuração do maven do usuário /home/{seu.usuario}/.m2/settings.xml [[File:tutorial/eclipse/utf-8.png|Fixando Maven]]
 #Evite validações[[File:tutorial/eclipse/utf-8.png|Fixando Validações]]
 
-====Importando o projeto Citsmart para o eclipse====
+====Importando o projeto Citsmart para o Eclipse====
 # Selecione File -> Import[[File:tutorial/eclipse/workspace-importacao.png|Selecionando a Workspace do Eclipse]]
 # Na opção Maven, selecione Existing Maven Projects[[File:tutorial/eclipse/importando-projeto-maven.png|Importando Projeto Maven]]
 # Clique em next

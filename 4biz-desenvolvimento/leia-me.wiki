@@ -6,7 +6,7 @@
 * Acessos:
 ** https://artifactory.centralit.com.br:8092/artifactory/webapp/login.html?0
 ** https://scm.centralit.com.br
-** CHAVE_MAVEN - [[leia-me.wiki#repositório-maven-da-central-it|como obter este valor]]
+** CHAVE_MAVEN - [[#repositório-maven-da-central-it|como obter este valor]]
 ** NOME_USUARIO_CENTRAL_IT - encaminhado por email 
 ===Instalação Básica===
 : Abra um terminal linux. 

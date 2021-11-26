@@ -35,9 +35,13 @@ sudo ./instalador.sh
 # Acesse o perfil do usuário. [[File:tutorial/artifactory/perfil.jpeg|Perfil do usuário]]
 # Digite a sua senha da CentralIT (Mesma de autenticação) e clique em "Unlock". [[File:tutorial/artifactory/desbloqueio_de_perfil.jpeg|Desbloqueio do perfil]]
 # Identifique e copie a senha criptografada. [[File:tutorial/artifactory/identificacao_chave_criptografada.png|Identificação da chave cripografada]]
-Observação: A chave Maven (CHAVE_MAVEN) é a senha criptografada. 
+Observação: A chave Maven (CHAVE_MAVEN) é a senha criptografada.
 
-
+=== Configurando o projeto no Eclipse EE ===
+# Abra o Eclipse
+# Selecione a Workspace[[File:tutorial/eclipse/abrindo-eclipse.png|Selecionando a Workspace do Eclipse]]
+## /home/{usuário}/workspaces/run2biz
+# Selecione File -> Import[[File:tutorial/eclipse/workspace-importacao.png|Selecionando a Workspace do Eclipse]]
 
 
 

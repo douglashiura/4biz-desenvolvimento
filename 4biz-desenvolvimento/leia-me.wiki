@@ -13,7 +13,7 @@
 <pre>crtl + shift + t (atalho do teclado) </pre> 
 
 ==== No terminal, rode o seguintes comandos ====
-: Inicialize o valor das variáveis adequadamente e rode no terminal.
+: Subistitua o valor das variáveis adequadamente e rode no terminal.
 <pre>
 CHAVE_MAVEN=APS85...89L
 NOME_USUARIO_CENTRAL_IT=nome.sobrenome 

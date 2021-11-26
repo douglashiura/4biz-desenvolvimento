@@ -75,13 +75,13 @@
 			empty if not used.</passphrase> </server> -->
 		<server>
 			<id>central</id>
-			<username>{maven.usuario}</username>
-			<password>{maven.chave}</password>
+			<username>${NOME_USUARIO_CENTRAL_IT}</username>
+			<password>${CHAVE_MAVEN}</password>
 		</server>
 		<server>
 			<id>snapshots</id>
-			<username>{maven.usuario}</username>
-			<password>{maven.chave}</password>
+			<username>${NOME_USUARIO_CENTRAL_IT}</username>
+			<password>${CHAVE_MAVEN}</password>
 		</server>
 
 	</servers>

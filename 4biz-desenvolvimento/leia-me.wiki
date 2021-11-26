@@ -50,7 +50,7 @@ Observação: A chave Maven (CHAVE_MAVEN) é a senha criptografada.
 # Selecione File -> Import[[File:tutorial/eclipse/workspace-importacao.png|Selecionando a Workspace do Eclipse]]
 # Na opção Maven, selecione Existing Maven Projects[[File:tutorial/eclipse/importando-projeto-maven.png|Importando Projeto Maven]]
 # Clique em Next
-# Insira o diretorio principal /home/{usuário}/git/citsmart-itsm-enterprise[[File:tutorial/eclipse/selecionando-projeto-citsmat-1.png|Selecionando o projeto Citsmart]]
+# Insira o diretório principal /home/{usuário}/git/citsmart-itsm-enterprise[[File:tutorial/eclipse/selecionando-projeto-citsmat-1.png|Selecionando o projeto Citsmart]]
 #Clique em Finish
 
 

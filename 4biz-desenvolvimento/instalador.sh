@@ -10,7 +10,6 @@ sudo apt install maven
 sudo apt install docker-compose
 ./instalador-maven.sh
 ./instalador-docker.sh
-./instalador-eclipse.sh
 ./baixador-projeto.sh
 ./instalador-wildfly.sh
 cd ~/programas/

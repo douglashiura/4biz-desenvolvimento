@@ -71,6 +71,15 @@ Observação: A chave Maven (CHAVE_MAVEN) é a senha criptografada.
 # Clique duas vezes em cima do WildFly 12 e preencha conforme abaixo:[[File:tutorial/eclipse/eclipse-wildfly-configuracao.png|Wildfly]]
 # Abra a configuração do lançador[[File:tutorial/eclipse/abrindo-configuracao-wildfly.png|Wildfly]]
 # Se necessário, configure conforme abaixo. Verifique os parâmetros de memória. [[File:tutorial/eclipse/configuracao-avancada-wildfly.png|Wildfly]]
+# Ainda nas configurações do WildFly 12, preencha o Time Limit, conforme abaixo:[[File:tutorial/eclipse/wildfly-tempo-esgotado.png|Wildfly]]
+# Logo após, clique em Salvar.
+# Clique com o botão direito do mouse em cima do WildFly e escolha a opção Add and Remove, selecione o Citsmart9 e adicione:[[File:tutorial/eclipse/adicionado-o-projeto-no-wildfly.png|Wildfly]]
+# Na aba Servers, clique com o botão direito do mouse no "WildFly 12" e em seguida clique em Start (Servers-> "WildFly 12" -> Start).
+# Acesse no navegador: http://localhost:8080/citsmart
+Observação: Caso o servidor não subir:
+* Escolha uma outra branch mais atualizada que a master;
+* Verifique a compilação do projeto, utilizando a limpeza e compilacão do projeto.
+
 
 
 

@@ -51,6 +51,24 @@ Observação: A chave Maven (CHAVE_MAVEN) é a senha criptografada.
 # Na opção Maven, selecione Existing Maven Projects[[File:tutorial/eclipse/importando-projeto-maven.png|Importando Projeto Maven]]
 # Clique em Next
 # Insira o diretório principal /home/{usuário}/git/citsmart-itsm-enterprise[[File:tutorial/eclipse/selecionando-projeto-citsmat-1.png|Selecionando o projeto Citsmart]]
-#Clique em Finish
+# Clique em Finish
+# Configure o construtor do projeto
+##  Na tela inicial do eclipse, clique com o botão direito do mouse em cima do Projeto e escolha Run As/Run Configurations e preencha as opções[[File:tutorial/eclipse/configuracao-do-construtor-maven.png|Configuração do construtor]]
+##  Configuração do Java no construtor[[File:tutorial/eclipse/configuracao-do-construtor-maven-java.png|Configuração do construtor Java]]
+
+=====Configurando WildFly (servidor) no Eclipse=====
+# Defina o novo servidor[[File:tutorial/eclipse/novo-servidor.png|Novo servidor]]
+# Clique no link em azul “No servers are available. Click this link toc reate a new server...”. 
+# Escolha a opção conforme a Figura[[File:tutorial/eclipse/novo-jboss.png|Novo JBOSS]]
+# Aceite a licença do JBOSS [[File:tutorial/eclipse/aceitando-licenca-jboss.png|Aceitando Licença]]
+# Aguarde baixar
+# Abra o progresso [[File:tutorial/eclipse/progresso-jboss.png|Progresso Jboss]]
+# Veja o progresso [[File:tutorial/eclipse/vendo-progresso.png|Vendo Progresso Jboss]]
+# Na aba servers, crie um novo servidor Wildfly (Versão 12) [[File:tutorial/eclipse/novo-servidor-wildfly.png|Novo servidor Wildfly]]
+
+
+
+
+
 
 

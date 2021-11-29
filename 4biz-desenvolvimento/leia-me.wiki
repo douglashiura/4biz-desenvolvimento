@@ -69,6 +69,9 @@ Observação: A chave Maven (CHAVE_MAVEN) é a senha criptografada.
 # Configure o lançador do Wildfly. [[File:tutorial/eclipse/configurando-wildfly.png|Configurando o Wildfly]]
 # Após a instalação o WildFly na aba Servers, aparecerá no Eclipse[[File:tutorial/eclipse/eclipse-wildfly.png|Wildfly]]
 # Clique duas vezes em cima do WildFly 12 e preencha conforme abaixo:[[File:tutorial/eclipse/eclipse-wildfly-configuracao.png|Wildfly]]
+# Abra a configuração do lançador[[File:tutorial/eclipse/abrindo-configuracao-wildfly.png|Wildfly]]
+# Se necessário, configure conforme abaixo. Verifique os parâmetros de memória. [[File:tutorial/eclipse/configuracao-avancada-wildfly.png|Wildfly]]
+
 
 
 

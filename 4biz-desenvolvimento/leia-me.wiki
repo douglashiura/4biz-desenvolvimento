@@ -21,6 +21,7 @@ export NOME_USUARIO_CENTRAL_IT=nome.sobrenome
 Observação: as variáveis acima serão substituidas pelo terminal. Os comandos abaixo podem ser executados como estão. Mas primeiro fixe os valores das variáveis acima e executar no terminal.
 <pre>
 sudo apt install git
+mkdir ~/git
 cd ~/git
 git clone https://${NOME_USUARIO_CENTRAL_IT}@scm.centralit.com.br/scm/git/4biz-desenvolvimento
 cd ~/git/4biz-desenvolvimento/4biz-desenvolvimento/

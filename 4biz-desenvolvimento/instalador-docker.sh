@@ -3,6 +3,7 @@ sudo chmod 777 /opt/4biz
 cd ~/git/4biz-desenvolvimento/4biz-desenvolvimento/ferramentas
 unzip docker.zip
 mv docker /opt/4biz/
+mkdir /opt/4biz/Upload
 cd /opt/4biz/docker/postgres
 sudo docker-compose up -d
 sleep 20s

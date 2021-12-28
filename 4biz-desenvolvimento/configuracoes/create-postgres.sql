@@ -1,3 +1,4 @@
 CREATE DATABASE dbcitsmart;
 CREATE ROLE rtsadmin LOGIN;
 CREATE ROLE root LOGIN;
+CREATE ROLE cditestes01user LOGIN;
